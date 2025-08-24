@@ -1,0 +1,70 @@
+.info-panel {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 300px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  z-index: 1000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info-panel h3 {
+  margin: 0 0 15px 0;
+  color: #333;
+  font-size: 18px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 8px;
+}
+
+.instruction {
+  color: #666;
+  font-style: italic;
+  margin: 0;
+}
+
+.ward-info h4 {
+  margin: 0 0 15px 0;
+  color: #333;
+  font-size: 16px;
+}
+
+.loading {
+  text-align: center;
+  color: #007bff;
+}
+
+.prediction-result {
+  margin-top: 15px;
+}
+
+.risk-level {
+  margin-bottom: 10px;
+}
+
+.risk-badge {
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.probability {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.description {
+  margin-top: 10px;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #555;
+  border-left: 4px solid #007bff;
+}

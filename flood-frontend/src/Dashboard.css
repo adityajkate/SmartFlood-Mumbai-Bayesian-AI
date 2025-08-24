@@ -1,0 +1,164 @@
+.dashboard {
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+}
+
+/* Header Styles */
+.dashboard-header {
+  background: #ffffff;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #dee2e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-icon {
+  width: 40px;
+  height: 40px;
+  background: #0d6efd;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #212529;
+}
+
+.header-text p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.last-updated {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+
+.refresh-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.refresh-btn:hover {
+  background: #0b5ed7;
+}
+
+/* Tab Navigation */
+.tab-navigation {
+  display: flex;
+  background: #ffffff;
+  border-bottom: 1px solid #dee2e6;
+  padding: 0 1.5rem;
+  gap: 0.5rem;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 1.5rem;
+}
+
+.tab-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #6c757d;
+  transition: all 0.2s ease;
+}
+
+.tab-button:hover {
+  color: #0d6efd;
+}
+
+.tab-button.active {
+  color: #0d6efd;
+  border-bottom-color: #0d6efd;
+}
+
+.tab-button svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* Main Content */
+.dashboard-content {
+  padding: 0;
+}
+
+.map-tab-content {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  gap: 1.5rem;
+}
+
+.map-section, .details-section {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border: 1px solid #dee2e6;
+}
+
+.section-header {
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid #dee2e6;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.section-icon {
+  width: 20px;
+  height: 20px;
+  color: #0d6efd;
+}
+
+.section-header h2 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #212529;
+}
+
+.map-container {
+  height: 600px; /* A fixed height for the map */
+}
+
+.details-section {
+  overflow-y: auto;
+}
